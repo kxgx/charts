@@ -2,16 +2,16 @@ name: qbittorrent-ee
 description: The qBittorrent project aims to provide an open-source software alternative
   to µTorrent.
 annotations:
-  title: qBittorrent
+  title: qBittorrent-ee
 type: application
 version: 1.1.1
 apiVersion: v2
 appVersion: latest
 kubeVersion: '>=1.16.0-0'
 maintainers:
-  - name: truenas
-    url: https://www.truenas.com/
-    email: dev@ixsystems.com
+  - name: truenas,kxgx
+    url: https://www.truenas.com/,https://github.com/kxgx
+    email: dev@ixsystems.com,2695929784@qq.com
 dependencies:
   - name: common
     repository: file://../../../common
