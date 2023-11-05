@@ -1,4 +1,4 @@
-name: qbittorrent
+name: qbittorrent-ee
 description: The qBittorrent project aims to provide an open-source software alternative
   to µTorrent.
 annotations:
@@ -6,7 +6,7 @@ annotations:
 type: application
 version: 1.1.1
 apiVersion: v2
-appVersion: 4.6.0
+appVersion: latest
 kubeVersion: '>=1.16.0-0'
 maintainers:
   - name: truenas
@@ -16,12 +16,13 @@ dependencies:
   - name: common
     repository: file://../../../common
     version: 1.1.1
-home: https://www.qbittorrent.org/
+home: https://www.qbittorrent.org/,https://github.com/c0re100/qBittorrent-Enhanced-Edition
 icon: https://media.sys.truenas.net/apps/qbittorrent/icons/icon.png
 sources:
   - https://github.com/onedr0p/containers/tree/main/apps/qbittorrent
   - https://github.com/truenas/charts/tree/master/community/qbittorrent
   - https://www.qbittorrent.org/
+  - https://github.com/c0re100/qBittorrent-Enhanced-Edition
 keywords:
   - media
   - torrent
